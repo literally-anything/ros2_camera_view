@@ -1,0 +1,108 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssBrowserCompatibilityForProperties" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HttpUrlsUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredUrls">
+        <list>
+          <option value="http://localhost" />
+          <option value="http://127.0.0.1" />
+          <option value="http://0.0.0.0" />
+          <option value="http://www.w3.org/" />
+          <option value="http://json-schema.org/draft" />
+          <option value="http://java.sun.com/" />
+          <option value="http://xmlns.jcp.org/" />
+          <option value="http://javafx.com/javafx/" />
+          <option value="http://javafx.com/fxml" />
+          <option value="http://maven.apache.org/xsd/" />
+          <option value="http://maven.apache.org/POM/" />
+          <option value="http://www.springframework.org/schema/" />
+          <option value="http://www.springframework.org/tags" />
+          <option value="http://www.springframework.org/security/tags" />
+          <option value="http://www.thymeleaf.org" />
+          <option value="http://www.jboss.org/j2ee/schema/" />
+          <option value="http://www.jboss.com/xml/ns/" />
+          <option value="http://www.ibm.com/webservices/xsd" />
+          <option value="http://activemq.apache.org/schema/" />
+          <option value="http://schema.cloudfoundry.org/spring/" />
+          <option value="http://schemas.xmlsoap.org/" />
+          <option value="http://cxf.apache.org/schemas/" />
+          <option value="http://primefaces.org/ui" />
+          <option value="http://tiles.apache.org/" />
+          <option value="http://" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="IncorrectFormatting" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="LongLine" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="INFO_ATTRIBUTES" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="3.10" />
+            <item index="1" class="java.lang.String" itemvalue="3.11" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyMissingTypeHintsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" editorAttributes="GENERIC_SERVER_ERROR_OR_WARNING">
+      <option name="m_onlyWhenTypesAreKnown" value="false" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="opencv-python" />
+            <item index="1" class="java.lang.String" itemvalue="bell" />
+            <item index="2" class="java.lang.String" itemvalue="hid" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="map" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="cv2.*" />
+          <option value="PySide6.QtWidgets.QCheckBox.toggled" />
+          <option value="PySide6.QtWidgets.QPushButton.clicked" />
+          <option value="avrgui.lib.color_button.ColorButton.pressed" />
+          <option value="PySide6.QtWidgets.QComboBox.currentIndexChanged" />
+          <option value="PySide6.QtWidgets.QComboBox.currentTextChanged" />
+          <option value="PySide6.QtCore.timeout.connect" />
+          <option value="PySide6.QtCore.QTimer.timeout" />
+          <option value="PySide6.QtCore.QThread.started" />
+          <option value="vmc.mqtt_client.MQTTClient" />
+          <option value="PySide6.QtCore.valueChanged.connect" />
+          <option value="PySide6.QtGui.QAction.triggered" />
+          <option value="PySide6.QtWidgets.QCheckBox.stateChanged" />
+          <option value="PySide6.QtWidgets.QSizePolicy.Expanding" />
+          <option value="PySide6.QtWidgets.QSizePolicy.MinimumExpanding" />
+          <option value="PySide6.QtWidgets.QSizePolicy.Fixed" />
+          <option value="PySide6.QtWidgets.QMessageBox.Critical" />
+          <option value="PySide6.QtWidgets.QMessageBox.Cancel" />
+          <option value="PySide6.QtWidgets.QMessageBox.Ok" />
+          <option value="PySide6.QtWidgets.QSlider.sliderMoved" />
+          <option value="PySide6.QtWidgets.QLineEdit.returnPressed" />
+          <option value="avrgui.lib.widgets.IntLineEdit.returnPressed" />
+          <option value="pyzed.sl.RESOLUTION" />
+          <option value="PySide6.QtWidgets.QRadioButton.toggled" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="Stylelint" enabled="true" level="ERROR" enabled_by_default="true" />
+  </profile>
+</component>
