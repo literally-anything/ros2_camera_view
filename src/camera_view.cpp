@@ -27,7 +27,6 @@ namespace camera_view
     void CameraViewNode::release()
     {
         imageSubscriber.shutdown();
-        capture.release();
     }
 
     void CameraViewNode::initParameters()

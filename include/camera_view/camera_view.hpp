@@ -21,7 +21,6 @@ namespace camera_view
         int framerateLimit;
 
         image_transport::Subscriber imageSubscriber;
-        cv::VideoCapture capture;
         cv::Mat image;
 
         void initParameters();
