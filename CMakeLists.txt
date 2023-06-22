@@ -40,6 +40,8 @@ endif ()
 
 install(DIRECTORY include
         DESTINATION include/${PROJECT_NAME})
+install(DIRECTORY launch
+        DESTINATION share/${PROJECT_NAME})
 install(TARGETS camera_view
         DESTINATION lib/${PROJECT_NAME})
 
