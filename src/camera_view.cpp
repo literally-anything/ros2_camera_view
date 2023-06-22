@@ -43,6 +43,14 @@ namespace camera_view
         ));
     }
 
+    void CameraViewNode::imageCallback(const sensor_msgs::msg::Image::ConstSharedPtr &msg)
+    {
+        image = cv_bridge::toCvShare(msg, encoding)->image;
+
+        cv::imshow(windowTitle, image);
+        cv::waitKey(1);
+    }
+
 
     rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void>> CameraViewNode::generateParamDescriptor(
             std::string description
@@ -54,14 +62,6 @@ namespace camera_view
         paramDescriptor.read_only = true;
 
         return paramDescriptor;
-    }
-
-    void CameraViewNode::imageCallback(const sensor_msgs::msg::Image::ConstSharedPtr &msg)
-    {
-        image = cv_bridge::toCvShare(msg, encoding)->image;
-
-        cv::imshow(windowTitle, image);
-        cv::waitKey(1);
     }
 }
 
