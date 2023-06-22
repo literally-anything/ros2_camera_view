@@ -13,9 +13,7 @@ find_package(rclcpp REQUIRED)
 find_package(image_transport REQUIRED)
 find_package(cv_bridge REQUIRED)
 find_package(OpenCV REQUIRED)
-find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
-find_package(camera_info_manager REQUIRED)
 
 include_directories(include)
 ament_export_include_directories(include)
@@ -26,9 +24,7 @@ ament_target_dependencies(camera_view
         image_transport
         cv_bridge
         OpenCV
-        std_msgs
-        sensor_msgs
-        camera_info_manager)
+        sensor_msgs)
 
 if (BUILD_TESTING)
     find_package(ament_lint_auto REQUIRED)

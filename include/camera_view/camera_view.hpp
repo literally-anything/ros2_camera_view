@@ -5,7 +5,6 @@
 #include <opencv2/opencv.hpp>
 #include <image_transport/image_transport.hpp>
 #include <cv_bridge/cv_bridge.h>
-#include <camera_info_manager/camera_info_manager.hpp>
 
 namespace camera_view
 {
