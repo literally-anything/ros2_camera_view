@@ -14,6 +14,24 @@ namespace camera_view
         explicit CameraViewNode(const rclcpp::NodeOptions &);
 
         void release();
+
+    private:
+        std::string windowTitle;
+        std::string encoding;
+        int framerateLimit;
+
+        image_transport::Subscriber imageSubscriber;
+        cv::VideoCapture capture;
+        cv::Mat image;
+
+        void initParameters();
+
+
+        static rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void>> generateParamDescriptor(
+                std::string description
+        );
+
+        void imageCallback(const sensor_msgs::msg::Image::ConstSharedPtr &msg);
     };
 }
 
