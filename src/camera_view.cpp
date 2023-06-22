@@ -16,7 +16,7 @@ namespace camera_view
         RCLCPP_INFO(this->get_logger(), "Initializing camera_view node with transport %s and encoding %s",
                     transport.c_str(), encoding.c_str());
 
-        imageSubscriber = image_transport::create_subscription(this, "my_camera",
+        imageSubscriber = image_transport::create_subscription(this, "camera",
                                                                [this](auto &msg)
                                                                {
                                                                    imageCallback(msg);
